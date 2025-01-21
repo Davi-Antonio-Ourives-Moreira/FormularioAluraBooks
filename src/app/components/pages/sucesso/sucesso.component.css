@@ -19,6 +19,10 @@
 .cadastro__imagem {
   display: block;
   margin: 3em auto 0 auto;
+
+  @media  screen and (max-width: 611px) {
+    width: 100%;
+  }
 }
 
 .cadastro__subtitulo {
